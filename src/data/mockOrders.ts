@@ -1,0 +1,70 @@
+export const mockOrders = [
+  {
+    id: 'order-1',
+    serviceId: 'service-1',
+    serviceTitle: 'Professional logo design with unlimited revisions',
+    serviceImage: 'https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    buyerId: '1',
+    buyerName: 'Alex Johnson',
+    sellerId: '3',
+    sellerName: 'Michael Scott',
+    price: 75,
+    originalPrice: 75,
+    status: 'in_progress',
+    createdAt: '2024-03-15T10:30:00Z',
+    requirements: 'I need a modern logo for my coffee shop called "Bean & Brew". I prefer minimalist design with earthy colors.',
+    isReviewed: false
+  },
+  {
+    id: 'order-2',
+    serviceId: 'service-3',
+    serviceTitle: 'Professional portrait photography session',
+    serviceImage: 'https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    buyerId: '1',
+    buyerName: 'Alex Johnson',
+    sellerId: '5',
+    sellerName: 'Daniel Brown',
+    price: 180,
+    originalPrice: 200,
+    status: 'pending',
+    createdAt: '2024-03-18T14:45:00Z',
+    requirements: 'Outdoor session in natural lighting. Need professional headshots for my LinkedIn and company website.',
+    isReviewed: false
+  },
+  {
+    id: 'order-3',
+    serviceId: 'service-4',
+    serviceTitle: 'Custom digital illustration in any style',
+    serviceImage: 'https://images.pexels.com/photos/3154324/pexels-photo-3154324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    buyerId: '3',
+    buyerName: 'Michael Scott',
+    sellerId: '1',
+    sellerName: 'Alex Johnson',
+    price: 85,
+    originalPrice: 85,
+    status: 'completed',
+    createdAt: '2024-03-10T09:15:00Z',
+    completedAt: '2024-03-14T16:30:00Z',
+    requirements: 'Looking for a digital portrait of my dog in a cartoon style. I will provide photos.',
+    deliveryFiles: [
+      'https://images.pexels.com/photos/5047323/pexels-photo-5047323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    isReviewed: true
+  },
+  {
+    id: 'order-4',
+    serviceId: 'service-2',
+    serviceTitle: 'Custom handmade pottery and ceramic art pieces',
+    serviceImage: 'https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    buyerId: '5',
+    buyerName: 'Daniel Brown',
+    sellerId: '4',
+    sellerName: 'Emily Wilson',
+    price: 110,
+    originalPrice: 120,
+    status: 'under_revision',
+    createdAt: '2024-03-05T11:20:00Z',
+    requirements: 'Set of 4 ceramic mugs in blue and white pattern. Need them to be microwave and dishwasher safe.',
+    isReviewed: false
+  }
+];

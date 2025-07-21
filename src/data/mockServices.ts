@@ -1,0 +1,180 @@
+export const mockServices = [
+  {
+    id: 'service-1',
+    title: 'Professional logo design with unlimited revisions',
+    description: 'I will create a modern, unique logo design for your brand with unlimited revisions until you are completely satisfied. The package includes source files, multiple file formats, and a brand guide.',
+    price: 75,
+    category: 'graphic-design',
+    subCategory: 'logo-design',
+    images: [
+      'https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '3',
+    username: 'designpro',
+    userAvatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.8,
+    reviewCount: 124,
+    isPopular: true,
+    isFeatured: true,
+    tags: ['logo', 'branding', 'design', 'professional'],
+    deliveryTime: 3,
+    createdAt: '2024-02-15T10:30:00Z'
+  },
+  {
+    id: 'service-2',
+    title: 'Custom handmade pottery and ceramic art pieces',
+    description: 'Beautifully crafted, unique ceramic pieces made to order. Each item is handmade with care using high-quality clay and glazes. Perfect for home decor, gifts, or special occasions. Customization available.',
+    price: 120,
+    category: 'handmade-crafts',
+    subCategory: 'ceramics',
+    images: [
+      'https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/4992453/pexels-photo-4992453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/4992458/pexels-photo-4992458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '4',
+    username: 'ceramicartist',
+    userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.9,
+    reviewCount: 87,
+    isPopular: true,
+    tags: ['pottery', 'ceramic', 'handmade', 'art', 'custom'],
+    deliveryTime: 14,
+    createdAt: '2024-01-28T15:45:00Z'
+  },
+  {
+    id: 'service-3',
+    title: 'Professional portrait photography session',
+    description: 'Capture your best self with my professional portrait photography service. The session includes 2 hours of shooting time, 15 fully edited high-resolution photos, and a private online gallery to view all images.',
+    price: 200,
+    category: 'photography',
+    subCategory: 'portrait',
+    images: [
+      'https://images.pexels.com/photos/3585325/pexels-photo-3585325.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3584924/pexels-photo-3584924.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3586799/pexels-photo-3586799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '5',
+    username: 'capturemagic',
+    userAvatar: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.7,
+    reviewCount: 65,
+    isFeatured: true,
+    tags: ['photography', 'portrait', 'professional', 'session'],
+    deliveryTime: 7,
+    createdAt: '2024-03-02T09:15:00Z'
+  },
+  {
+    id: 'service-4',
+    title: 'Custom digital illustration in any style',
+    description: 'I will create a unique digital illustration in any style you prefer. Whether you need character design, portrait, landscape, or concept art, I can bring your vision to life with attention to detail and creativity.',
+    price: 85,
+    category: 'digital-art',
+    subCategory: 'illustration',
+    images: [
+      'https://images.pexels.com/photos/3154324/pexels-photo-3154324.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3861943/pexels-photo-3861943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/5047323/pexels-photo-5047323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '1',
+    username: 'craftlover',
+    userAvatar: 'https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.9,
+    reviewCount: 112,
+    isPopular: true,
+    isFeatured: true,
+    tags: ['illustration', 'digital art', 'character design', 'custom'],
+    deliveryTime: 5,
+    createdAt: '2024-02-10T14:20:00Z'
+  },
+  {
+    id: 'service-5',
+    title: 'Professional music production and mixing',
+    description: 'I will professionally produce, mix, and master your music track to industry standards. With 10+ years of experience working with various genres, I\'ll enhance your sound while preserving your artistic vision.',
+    price: 150,
+    category: 'music-production',
+    subCategory: 'mixing',
+    images: [
+      'https://images.pexels.com/photos/164938/pexels-photo-164938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/144429/pexels-photo-144429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '6',
+    username: 'beatmaker',
+    userAvatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.8,
+    reviewCount: 78,
+    isPopular: true,
+    tags: ['music', 'production', 'mixing', 'mastering', 'audio'],
+    deliveryTime: 6,
+    createdAt: '2024-01-15T16:40:00Z'
+  },
+  {
+    id: 'service-6',
+    title: 'Creative content writing for blogs and websites',
+    description: 'I will write engaging, SEO-optimized content for your blog or website that captures your brand voice and resonates with your target audience. All content is original, well-researched, and delivered on time.',
+    price: 60,
+    category: 'writing-translation',
+    subCategory: 'content-writing',
+    images: [
+      'https://images.pexels.com/photos/6446709/pexels-photo-6446709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/1181595/pexels-photo-1181595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3059747/pexels-photo-3059747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '7',
+    username: 'wordsmith',
+    userAvatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.7,
+    reviewCount: 93,
+    isFeatured: true,
+    tags: ['writing', 'content', 'blogs', 'SEO', 'copywriting'],
+    deliveryTime: 2,
+    createdAt: '2024-03-05T11:30:00Z'
+  },
+  {
+    id: 'service-7',
+    title: 'Hand-knitted luxury scarves and beanies',
+    description: 'Luxurious hand-knitted scarves and beanies made with premium wool and natural fibers. Each item is carefully crafted with attention to detail for maximum comfort and style. Custom colors and designs available.',
+    price: 70,
+    category: 'handmade-crafts',
+    subCategory: 'knitting',
+    images: [
+      'https://images.pexels.com/photos/6850598/pexels-photo-6850598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/6847874/pexels-photo-6847874.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/5413911/pexels-photo-5413911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '8',
+    username: 'woolguru',
+    userAvatar: 'https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.9,
+    reviewCount: 56,
+    tags: ['knitting', 'scarf', 'beanie', 'handmade', 'wool'],
+    deliveryTime: 10,
+    createdAt: '2024-02-20T13:15:00Z'
+  },
+  {
+    id: 'service-8',
+    title: 'Responsive website design and development',
+    description: 'I will design and develop a modern, responsive website for your business or personal brand. The package includes custom design, mobile optimization, basic SEO setup, and a content management system for easy updates.',
+    price: 350,
+    category: 'web-development',
+    subCategory: 'website-design',
+    images: [
+      'https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    ],
+    userId: '9',
+    username: 'webwizard',
+    userAvatar: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150',
+    rating: 4.8,
+    reviewCount: 82,
+    isPopular: true,
+    isFeatured: true,
+    tags: ['web design', 'development', 'responsive', 'website'],
+    deliveryTime: 14,
+    createdAt: '2024-01-08T10:00:00Z'
+  }
+];
